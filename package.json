@@ -1,0 +1,13 @@
+{
+    "name": "chistes-api",
+    "version": "1.0.0",
+    "description": "Aplicación de chistes en español",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
+  
