@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chistes en Español</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Chistes en Español</h1>
+        <div class="filters">
+            <input type="text" id="search" placeholder="Buscar chiste por palabra clave">
+            <button id="searchBtn">Buscar</button>
+            <select id="category">
+                <option value="">Selecciona una categoría</option>
+                <option value="Programming">Programación</option>
+                <option value="Misc">Misceláneos</option>
+                <option value="Dark">Humor Negro</option>
+                <option value="Pun">Juegos de Palabras</option>
+                <option value="Spooky">Espeluznantes</option>
+                <option value="Christmas">Navidad</option>
+            </select>
+            <button id="randomJokeBtn">Chiste Aleatorio</button>
+        </div>
+        <div id="jokeContainer" class="joke-container"></div>
+    </div>
+</body>
+</html>
